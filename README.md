@@ -1,16 +1,21 @@
 ```
-███████╗ █████╗  ██████╗ ██╗     ███████╗       ███████╗██╗   ██╗███████╗
-██╔════╝██╔══██╗██╔════╝ ██║     ██╔════╝       ██╔════╝╚██╗ ██╔╝██╔════╝
-█████╗  ███████║██║  ███╗██║     █████╗         █████╗   ╚████╔╝ █████╗  
-██╔══╝  ██╔══██║██║   ██║██║     ██╔══╝         ██╔══╝    ╚██╔╝  ██╔══╝  
-███████╗██║  ██║╚██████╔╝███████╗███████╗       ███████╗   ██║   ███████╗
-╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝       ╚══════╝   ╚═╝   ╚══════╝
-
+$$$$$$$$\                    $$\                 $$$$$$$$\                    
+$$  _____|                   $$ |                $$  _____|                   
+$$ |      $$$$$$\   $$$$$$\  $$ | $$$$$$\        $$ |     $$\   $$\  $$$$$$\  
+$$$$$\    \____$$\ $$  __$$\ $$ |$$  __$$\       $$$$$\   $$ |  $$ |$$  __$$\ 
+$$  __|   $$$$$$$ |$$ /  $$ |$$ |$$$$$$$$ |      $$  __|  $$ |  $$ |$$$$$$$$ |
+$$ |     $$  __$$ |$$ |  $$ |$$ |$$   ____|      $$ |     $$ |  $$ |$$   ____|
+$$$$$$$$\\$$$$$$$ |\$$$$$$$ |$$ |\$$$$$$$\       $$$$$$$$\\$$$$$$$ |\$$$$$$$\ 
+\________|\_______| \____$$ |\__| \_______|      \________|\____$$ | \_______|
+                   $$\   $$ |                             $$\   $$ |          
+                   \$$$$$$  |                             \$$$$$$  |          
+                    \______/                               \______/         
+                                                                      
 ```
 
 <div align="center">
 
-  ![Python 3.5](https://img.shields.io/badge/Python-3.6%2B-blue.svg)
+![Python 3.5](https://img.shields.io/badge/Python-3.6%2B-blue.svg)
 ![OS Linux](https://img.shields.io/badge/Supported%20OS-Linux-yellow.svg)
 ![Lets stalk](https://img.shields.io/badge/Stalkermode-Activated-red.svg)
 
@@ -59,7 +64,7 @@ These instructions will get you a copy of the project up and running on your loc
    ``` $ git clone https://github.com/ThoughtfulDev/EagleEye ```
 2. ```
    $ cd EagleEye
-   $ sudo docker build -t eagle-eye - < dockerfile
+   $ sudo docker build -t eagle-eye .
    ```
 3. Now create a `known` folder and a `result` folder anywhere on your PC.
 4. Put the images of the known person in the known folder.
@@ -79,14 +84,14 @@ The result should now be in `/path/to/result`
 
 ---
 
-#### Automated Prequisites Installation (If Docker doesn't work)
+#### Automated Prerequisites Installation (If Docker doesn't work)
 ```
 wget https://raw.githubusercontent.com/ThoughtfulDev/EagleEye/master/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 ---
 
-#### Manual Prequisites Installation (If you are hardcore)
+#### Manual Prerequisites Installation (If you are hardcore)
 
 For **Debian** based Distros
 ```
